@@ -1,0 +1,52 @@
+List of users :
+
+user name : romuald;
+password : supa_teacha;
+role : professeur (e).
+
+user name : eva;
+password : sans;
+role : professeur (e).
+
+user name : theo;
+password : vingtsurvingt;
+role : etudiant (e).
+
+user name : lili;
+password : touslespoints;
+role : etudiant (e).
+
+make to compile the program.
+./exe to execute the program.
+
+In user.c, there are the functions : 
+- 'connect', that allows the user to connect;
+- 'write_user', that allows us write in the file 'user.txt' the information of the books;
+- 'create_user', that alows us to create an account;
+- 'read_user', that allows us to recover the informations of the users and the number of them. 
+
+In book.c, there are the functions :
+- 'borrowed_book', that allows us to display the books that the user has borrowed.
+- 'return_book', that allows the user to return a book;
+- 'choose_book', that allows the user to choose a book;
+- 'search_book', that allows the user to search a book;
+- 'search_autor', that allows the user to search by the autor;
+- 'search_category', that allows the user to search by the category;
+- 'search-num', that allows the user to search by the num;
+- 'search_title', that allows the user to search by the title;
+- 'display_book', that allows the user to display the books;
+- 'borrow_book', that allows the user to borrow a book;
+- 'write_book', that allows us to write in the file 'book.txt' the information of the books;
+- 'edit_book', that allows us 
+- 'create_book', that allows the user to create a book;
+- 'read_book', that allows us to recover the informations of the books and the number of them.
+
+In choice.c, there are the functions 'start' that allows the user to : 
+- connect;
+- create an account;
+- close the program.
+and 'action' that allows the user to :
+- borrow a book;
+- return a book;
+- create a book;
+- close the program.
